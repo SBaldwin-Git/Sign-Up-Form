@@ -1,5 +1,18 @@
+:root{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    height: 100%;
+}
+
 #splash {
     background-image: url('res/halie-west-25xggax4bSA-unsplash.jpg');
-    background-size: contain;
-    overflow: hidden;
+    background-size:cover;
+    width: 33%;
+}
+
+#form-container{
+    
 }
