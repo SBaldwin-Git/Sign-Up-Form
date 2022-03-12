@@ -30,7 +30,7 @@ body {
     background-color: rgba(0, 0, 0, 50%);
     color: white;
     font-family: Odin;
-    font-size: 10rem;
+    font-size: 8rem;
 }
 
 #logo-container img {
@@ -49,14 +49,27 @@ body {
     margin-bottom: 1rem;
 }
 
-a,
-a:hover,
-a:focus,
-a:active {
+a,a:hover,a:focus,a:active {
     color: inherit;
 }
 
 #form-container {
+    display: flex;
+    flex-flow: column nowrap;
     flex-grow: 1;
     background-color:floralwhite;
+}
+
+#form-header{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    position: relative;
+    margin: 10rem 10rem 0 2rem;
+    width: 50%;
+    line-height: 1.5rem;
+}
+
+i {
+    font-style: italic;
 }
